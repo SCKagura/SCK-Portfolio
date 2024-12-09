@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Argazyu',
-  subtitle: 'Lazy Hehe',
+  title: 'SCKagura',
+  subtitle: 'PortFolio',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
     hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -40,33 +40,33 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'Instagram',
-      url: 'https://instagram.com/argazyu',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://www.instagram.com/bywbboss/',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Arga',
-  bio: 'lazy people who sometimes make cheats for games',
+  avatar: 'assets/images/SCK_LABLAB-Photo.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  name: 'SCKagura',
+  bio: 'Network Is my life but what is show routing table?',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      name: 'FaceBook',
+      icon: 'fa6-brands:facebook',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com/argarize',
+      url: 'https://www.facebook.com/bywbb.boss',
     },
     {
       name: 'Instagram',
       icon: 'fa6-brands:instagram',
-      url: 'https://instagram.com/argazyu',
+      url: 'https://www.instagram.com/bywbboss/',
     },
     {
       name: 'TikTok',
       icon: 'fa6-brands:tiktok',
-      url: 'https://www.tiktok.com/@eunoia.txt',
+      url: 'https://www.tiktok.com/@12chopwesc',
     },
   ],
 }
