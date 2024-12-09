@@ -47,15 +47,13 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/SCK_LABLAB-Photo.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/SCK_LABLAB-Photo.jpg', 
   name: 'SCKagura',
   bio: 'Network Is my life but what is show routing table?',
   links: [
     {
       name: 'FaceBook',
-      icon: 'fa6-brands:facebook',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
+      icon: 'fa6-brands:facebook',
       url: 'https://www.facebook.com/bywbb.boss',
     },
     {
@@ -68,8 +66,14 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:tiktok',
       url: 'https://www.tiktok.com/@12chopwesc',
     },
+    {
+      name: 'GitHub', 
+      icon: 'fa6-brands:github', 
+      url: 'https://github.com/SCKagura', 
+    },
   ],
 }
+
 
 export const licenseConfig: LicenseConfig = {
   enable: true,
